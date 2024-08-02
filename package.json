@@ -1,0 +1,17 @@
+{
+  "name": "web-test-runner-called-with-match-error-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "web-test-runner called-with-match.test.js --node-resolve --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@web/test-runner": "^0.18.2",
+    "chai": "^5.1.1",
+    "sinon": "^18.0.0",
+    "sinon-chai": "^4.0.0"
+  }
+}
